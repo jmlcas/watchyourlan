@@ -4,6 +4,7 @@ services:
 
   wyl:
     image: aceberg/watchyourlan
+    container_name: watchyourlan
     network_mode: "host"        
     restart: unless-stopped
     volumes:
